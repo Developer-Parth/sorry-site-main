@@ -53,6 +53,23 @@ export default function LetterPage({ setCurrentPage }) {
                     className="w-full h-36 object-cover"
                   />
 
+                  <video
+                    src={`/images/1.mp4`}
+                    className="w-full h-36 object-cover"
+                    controls
+                    autoPlay
+                    loop
+                    muted
+                  />
+
+                  <img
+                    src={`/images/2.jpg`}
+                    alt={`Beautiful memory ${i}`}
+                    className="w-full h-36 object-cover"
+                  />
+
+
+
                   {/* Cute corner decorations */}
                   <div className="absolute top-1 right-1">
                     <span className="text-xs">{i === 1 ? "💕" : i === 2 ? "✨" : "🌸"}</span>

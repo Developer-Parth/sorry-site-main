@@ -92,7 +92,7 @@ export default function OpeningPage({ setCurrentPage, setMusicPlaying, setShowMu
           transition={{ duration: 0.8, delay: 1.6 }}
           className="text-purple-200 text-xl leading-relaxed"
         >
-          I'm holding something heavy… not in hands, but in heart…
+          I'm holding something heavy… not in hands, but in my delhi wala dil…
         </motion.p>
       </motion.div>
 
